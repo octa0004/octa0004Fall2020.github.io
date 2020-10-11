@@ -6,7 +6,7 @@ body{
     background-color: #fff1e6;
 }
 /* Selecting multiple elements to add same style */
-h1,
+header,
 footer{
     background-color: peachpuff;
 }
