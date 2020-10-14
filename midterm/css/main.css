@@ -1,0 +1,84 @@
+body{
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #484A47;
+    line-height:1.5;
+    background-color: #fff1e6;
+}
+/* Selecting multiple elements to add same style */
+header,
+footer{
+    background-color: peachpuff;
+}
+
+/*class selector*/
+
+.white-text{
+    background: #cb997e;
+    color: white;
+    text-decoration: none;
+}
+
+/* id selector*/
+#my-image{
+    box-shadow: -2px 2px 4px 2px black;
+}
+
+/* replace bullets list to square */
+
+ul{
+    list-style-type: square;
+}
+
+/* nth-child selector add background to the odd hobby list*/
+
+/*position related selector*/
+/* first-child selector */
+aside ul li:first-child {
+    font-weight: bold;
+}
+
+/*last-child selector*/
+aside ul li:last-child {
+    font-weight: bold;
+}
+
+li:nth-child(odd){
+     background-color: #cb997e;
+}
+
+
+/* using Pseudo Classes
+styling navigation
+*/
+
+nav a,
+nav a:link,
+nav a:visited {
+    background: #cb997e;
+    color: #484A47;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+nav a:hover,
+nav a:focus {
+    background: white;
+    text-decoration: underline
+    
+}
+
+nav a:active{
+    box-shadow: 0 0 4px 2px black;
+    border: 1px black;
+}
+
+
+.large-text{
+    color: #cb997e;
+    font-size: 24px;
+    font-style: italic;
+}
