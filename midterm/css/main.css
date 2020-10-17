@@ -1,67 +1,36 @@
-body{
-    font-family: Montserrat, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #484A47;
-    line-height:1.5;
-    background-color: #fff1e6;
+
+#background{
+    margin: auto;
+    width: 75%;
+    background-color: #d4e9e7;
+  }
+
+/* Add Hero image */
+#title{
+    background-image: url("../images/lone-starfish-wide.jpg");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -30px;
 }
-/* Selecting multiple elements to add same style */
-header,
-footer{
-    background-color: peachpuff;
+/* Add border in Navigation */
+#aborder{
+    border-right:1px solid #484A47;
+    border-left:1px solid #484A47;
 }
-
-/*class selector*/
-
-.white-text{
-    background: #cb997e;
-    color: white;
-    text-decoration: none;
-}
-
-/* id selector*/
-#my-image{
-    box-shadow: -2px 2px 4px 2px black;
-}
-
-/* replace bullets list to square */
-
-ul{
-    list-style-type: square;
-}
-
-/* nth-child selector add background to the odd hobby list*/
-
-/*position related selector*/
-/* first-child selector */
-aside ul li:first-child {
-    font-weight: bold;
-}
-
-/*last-child selector*/
-aside ul li:last-child {
-    font-weight: bold;
-}
-
-li:nth-child(odd){
-     background-color: #cb997e;
-}
-
-
-/* using Pseudo Classes
-styling navigation
-*/
 
 nav a,
 nav a:link,
 nav a:visited {
-    background: #cb997e;
+    padding: 6px;
     color: #484A47;
-    padding: 10px 21px;
     text-align: center;
+    text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    border: 1px solid black;
+    width: 30%;
 }
 
 nav a:hover,
@@ -73,12 +42,60 @@ nav a:focus {
 
 nav a:active{
     box-shadow: 0 0 4px 2px black;
-    border: 1px black;
+   
+}
+
+h1{
+    text-align: center;
+    line-height: 270px;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #484A47;
+    line-height: 1.5;
+    background-color:#aad4cf;
+
 }
 
 
-.large-text{
-    color: #cb997e;
-    font-size: 24px;
-    font-style: italic;
+
+p{
+    font-size: 10px;
+    padding-left: 8px;
+    padding-right: 16px;
+}
+
+/* Add padding for ul */
+ul{
+    font-size: 10px;
+    padding-left: 21px;
+}
+
+h2,
+h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 8px;
+    padding-right: 16px;
+}
+
+/* Change size and float image */
+#my-image{
+    width: 150px;  
+    height: auto;  
+    text-align: center;  
+    padding: 8px;  
+    float: left;
+}
+
+
+/* Copyright alignment to the right */
+.site-footer{
+    background-color: #d4e9e7;
+    text-align: right;
 }

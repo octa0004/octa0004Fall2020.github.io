@@ -1,63 +1,127 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Tina Octaviani - Home</title>
+    <title>Lone Starfish - Home</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Site header-->
-    <header>
-        <h1>Tina Octaviani</h1>
-        <!--Navigation bar-->
-        <nav>
-            <a href="./index.html">Home</a> |
-            <a href="./notes.html">Notes</a>
-        </nav>
+    <div id="background">
+        <!-- Site header-->
+        <header>
+            <div id="title">
+                <h1>Lone Starfish</h1>
+            </div>
+            <!--Navigation bar-->
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./story.html" id="aborder">Story</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </header>
+        <!-- Main article-->
+        <article>
 
-    </header>
-     <!-- Main article-->
-    <article> 
+            <h2>Life of a Starfish</h2>
+            <!--adding image-->
+            <img src="images/lone-starfish.jpg" alt="starfish photo" id="my-image">
+            <p> Swallower catla Black angelfish grunter striped bass scissor-tail rasbora;
+                slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye,
+                "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder."
+                Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf
+                loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera
+                gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout
+                elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel
+                Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish;
+                longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.
+                Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish.
+                Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish
+                pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut.
+                Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench
+                squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish.
+                Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish
+                whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl
+                danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio.
+                Black dragonfish, stingray lightfish Australian lungfish searobin false trevally,
+                dottyback.
+            </p>
 
-        <h2 class="white-text">About Me</h2>
-        <!--adding image-->
-        <img src="images/image-of-yourself.jpg" alt="profile photo" id="my-image">
-        <p> Hello, my name is Tina Octaviani and I am from Indonesia, 
-            and this will be my 1<sup>st</sup> year at <strong>Algonquin College </strong>
-            enrolled in <em>Interactive Media Design </em> even though I don't know anything 
-            about coding, <abbr title="Cascading Style Sheets">CSS</abbr> and <abbr title="Hypertext Markup Language">HTML</abbr>.
-            I enjoy exploring many forms of art, such as digital illustration, calligraphy, food miniature sculpture, photography, and crafts.
-            My online creative process journal is in Behance and Instagram.
-        </p>
-        <p>
-            When I was a child, 
-            I was always fond of how pretty magazines and book covers look.
-            Since then, I dreamed that one day I would be able to make pretty things
-            that matter to many people.
-            Before I went to Algonquin College, I completed a degree in Design Communication. 
-            I got a taste of the industry, in which the majority of projects done used print media. 
-        </p>
-        <blockquote class="large-text">
-            The secret of getting ahead is getting started. -<cite>Mark Twain</cite>
-        </blockquote>
-        <hr>
-    
-    </article>
-    <aside>
-        <h3>Hobbies</h3>
-        <!--adding unordered list of my hobbies-->
-        <ul>
-            <li>Food miniature sclupture</li>
-            <li>Calligraphy</li>
-            <li>Photography</li>
-        </ul>
-    </aside>
-     <!-- Site footer-->
-    <footer>
-        Copyright &copy; Tina Octaviani, 2020 
-    </footer>
 
+        </article>
+        <aside>
+            <h3>Facts About Starfish</h3>
+            <!--adding unordered list facts about starfish-->
+            <ul>
+                <li>
+                    Australian herring barbel Mexican golden trout, killifish bonito;
+                    northern anchovy.
+                </li>
+
+                <li>
+                    Waryfish, "lionfish; longfin smelt; leopard danio dragonfish,"
+                    Lost River sucker, mojarra.
+                </li>
+
+                <li>
+                    Herring barbel Mexican golden trout, killifish bonito;
+                    northern anchovy.
+                </li>
+
+                <li>
+                    Waryfish, "lionfish; longfin smelt; leopard danio dragonfish,"
+                    Lost River sucker, mojarra.
+                </li>
+            </ul>
+        </aside>
+
+       
+        <h3> Contact to learn more </h3>
+            <!--adding a form--> 
+            <form action="contact.html" method="post">
+                <div>
+                    <label for="fullname">Your Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+
+                <div>
+                    <label for="youremail">Your Email</label>
+                    <input type="email" id="youremail" name="youremail" required>
+                </div>
+
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="yourmessage"></textarea>
+
+                </div>
+
+                <div>
+                <h4>Would you like to visit the starfish?</h4>
+
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="past">
+
+                <label for="no">No</label>
+                <input type="radio" id="no" name="past">
+
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="no" name="past">
+                </div>
+
+                <div>
+                    <button type="Send">Send</button>
+                </div>
+
+            </form>
+           </h3>
+
+        <!--Footer of the site-->
+        <!--HTML Entities-->
+        <footer class="site-footer">
+           &copy; Lone Starfish.
+        <footer>
+    </div>
 </body>
+
 </html>
