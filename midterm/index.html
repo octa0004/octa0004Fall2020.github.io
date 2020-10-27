@@ -8,18 +8,19 @@
 </head>
 
 <body>
-    <div id="background">
+    <div class="container">
         <!-- Site header-->
         <header>
             <div id="title">
                 <h1>Lone Starfish</h1>
             </div>
             <!--Navigation bar-->
-            <nav>
-                <a href="./index.html">Home</a>
-                <a href="./story.html" id="aborder">Story</a>
-                <a href="./contact.html">Contact</a>
-            </nav>
+                <nav>
+                    <a href="./index.html" class="aborder">Home</a>
+                    <a href="./story.html" class="aborder">Story</a>
+                    <a href="#contactform">Contact</a>
+                </nav>
+
         </header>
         <!-- Main article-->
         <article>
@@ -79,26 +80,26 @@
        
         <h3> Contact to learn more </h3>
             <!--adding a form--> 
-            <form action="contact.html" method="post">
-                <div>
-                    <label for="fullname">Your Name</label>
-                    <input type="text" id="fullname" name="fullname">
+            <div id="contactform"> 
+                <form action="contact.html" method="post">
+                <div>  
+                    <label for="fullname">Your Name</label><br>
+                    <input type="text" id="fullname" name="fullname" class="barwidth">
                 </div>
 
                 <div>
-                    <label for="youremail">Your Email</label>
-                    <input type="email" id="youremail" name="youremail" required>
+                    <label for="youremail">Your Email</label><br>
+                    <input type="email" id="youremail" name="youremail" required class="barwidth">
                 </div>
 
                 <div>
-                    <label for="yourmessage">Your Message</label>
-                    <textarea name="message" id="yourmessage"></textarea>
+                    <label for="yourmessage">Your Message</label><br>
+                    <textarea name="message" id="yourmessage" class="barwidth"></textarea>
 
                 </div>
 
                 <div>
                 <h4>Would you like to visit the starfish?</h4>
-
                 <label for="yes">Yes</label>
                 <input type="radio" id="yes" name="past">
 
@@ -114,13 +115,18 @@
                 </div>
 
             </form>
-
+            </div>
+        
         <!--Footer of the site-->
         <!--HTML Entities-->
         <footer class="site-footer">
            &copy; Lone Starfish.
-        </footer>
+        </footer>  
     </div>
+            <!--Add back to top-->   
+            <div id="top">
+                <a href="#title">BackToTop</a>
+            </div>
 </body>
 
 </html>
