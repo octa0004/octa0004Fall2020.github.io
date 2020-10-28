@@ -48,7 +48,7 @@ nav a:focus {
 }
 
 nav a:active{
-    box-shadow: 0 0 4px 2px black;
+    box-shadow: 4px 2px black;
 }
 
 h1{
