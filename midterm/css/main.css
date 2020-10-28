@@ -8,7 +8,7 @@
 /* Add Hero image */
 #title{
     background-image: url("../images/lone-starfish-wide.jpg");
-    height: 200px;
+    height: 220px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,6 @@
 
 .aborder{
     border-right: 1px solid #484A47;
-    margin: 0px;
 }
 
 nav {
@@ -73,7 +72,6 @@ body{
 }
 
 
-
 p{
     font-size: 10px;
     padding-left: 8px;
@@ -91,10 +89,13 @@ h3{
     font-size: 20px;
     font-weight: 400;
     padding-left: 8px;
-    padding-right: 16px;
+    padding-right: 8px;
     margin-bottom: 0;
 }
 
+article{
+    padding-top: 30px;
+}
 
 
 /* Change size and float image */
