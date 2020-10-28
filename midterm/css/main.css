@@ -5,9 +5,9 @@
     background-color: #d4e9e7;
 }
 
-/* Add Hero image */
+/* Add Headline Top image */
 #title{
-    background-image: url("../images/lone-starfish-wide.jpg");
+    /*background-image: url("../images/lone-starfish-wide.jpg")*/;
     height: 220px;
     background-position: center;
     background-repeat: no-repeat;
