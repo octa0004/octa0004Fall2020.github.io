@@ -7,14 +7,8 @@
 
 /* Add Header Top image */
 #header-image{
-    /*background-image: url("../images/lone-starfish-wide.jpg")*/
     height: 100%;
     width: 100%;
-    /*
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
     position: relative;
     margin-top: -30px;
 }
