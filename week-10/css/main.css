@@ -81,6 +81,7 @@ a:link,
 a:visited{
     color: inherit;
 }
+
 a:hover,
 a:focus{
     color: #00ADD8;
@@ -144,6 +145,26 @@ p{
     text-transform: uppercase;
     text-align: center;
 }
+/* Navigation */
+.nav-list li{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+/* love hate */
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited{
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+.nav-li a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    background-color: #00ADD8;
+    color: inherit;
+}
 
 /*mobile app section*/
 .btn{
@@ -159,6 +180,20 @@ p{
     background-color: #00ADD8;
     color: inherit;
 }
+
+/* Simple Actions*/
+.actions-list{
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.actions-list li{
+    max-width: 50%;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 
 
 /*footer*/
@@ -197,6 +232,21 @@ p{
         color: white;
     }
 
+    /* Navigation */
+    .nav-list{
+        display: flex;
+    }
+
+    .nav-list li{
+        flex: 1;
+        border: none;
+        border-right: 1px solid grey;
+    }
+
+    .nav-list li:last-child{
+        border: none;
+    }
+
     /* app section */
     .app img{
         width: 40%;
@@ -208,11 +258,10 @@ p{
         float: right;
 
     }
+}
 
-
-
-
-
-
-
+@media screen and (min-width: 800px){
+    .actions-list li {
+        max-width: 20%;
+    }
 }
