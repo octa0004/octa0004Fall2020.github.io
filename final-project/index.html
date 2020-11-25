@@ -28,7 +28,7 @@
                     <ul class="navlink">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about us">About Us</a></li>
-                        <li><a href="Service">Service</a></li>
+                        <li><a href="Services">Services</a></li>
                         <li><a href="Team">Team</a></li>
                         <li><a href="Contact">Contact</a></li>
                     </ul>
@@ -62,8 +62,13 @@
         <section class="aboutus">
             <div class="container">
                 <div class="image">
+                    <img src="images/about-us.jpg" alt="about image" class="about"> 
                     <div>
                         <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil aspernatur qui quod. Consectetur atque natus, 
+                            explicabo unde molestias odit, accusantium corrupti exercitationem iste ex ipsum impedit enim doloribus
+                            tempora error.</p>
+
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil aspernatur qui quod. Consectetur atque natus, 
                             explicabo unde molestias odit, accusantium corrupti exercitationem iste ex ipsum impedit enim doloribus
                             tempora error.</p>
@@ -77,6 +82,7 @@
             <h2> Our Services</h2>
             <div class="ourservices container">
                 <div class="Digital trasnformation">
+                    <img src="images/digital.jpg" alt="digital image" class="digital"> 
                     <h3>Digital Transformation</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Deserunt voluptas ad ea a, totam cum, numquam voluptates 
@@ -87,6 +93,7 @@
                 </div>
 
                 <div class="Marketing">
+                    <img src="images/marketing.jpg" alt="marketing image" class="marketing"> 
                     <h3>Marketing</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Deserunt voluptas ad ea a, totam cum, numquam voluptates 
@@ -97,6 +104,7 @@
                 </div>
 
                 <div class="Video Production">
+                    <img src="images/video.jpg" alt="video image" class="video"> 
                     <h3>Video Production</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Deserunt voluptas ad ea a, totam cum, numquam voluptates 
@@ -107,6 +115,7 @@
                 </div>
 
                 <div class="Web Development">
+                    <img src="images/web.jpg" alt="web image" class="web"> 
                     <h3>Web Development</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Deserunt voluptas ad ea a, totam cum, numquam voluptates 
@@ -117,6 +126,7 @@
                 </div>
                 
                 <div class="Print">
+                    <img src="images/print.jpg" alt="print image" class="print"> 
                     <h3>Print</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Deserunt voluptas ad ea a, totam cum, numquam voluptates 
@@ -131,6 +141,7 @@
         <!-- Blue Partition Our Vission-->
         <section>
             <div>
+                <img src="images/vision.jpg" alt="vission image" class="vission"> 
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis optio amet porro maxime, 
                     dignissimos deserunt nihil iure ex quam quisquam sit, consequuntur minima illum qui? Eaque 
@@ -179,8 +190,26 @@
             <h2> Contact Us</h2>
             <div class="contactus container">
                 <div class="Send us message table">
-                    <h3>Send Us a message</h3>
-                    <button type="Submit">Send<i class="im im-care-right"></i></button>
+                    <h3>Send us a message</h3>
+                    <!--Adding a form-->    
+                    <form action="contact.html" method="post">
+                        <div> 
+                           <label for="fullname">Full Name</label>
+                           <input type="text" id="fullname" name="fullname">
+                       </div>
+               
+                       <div>
+                           <label for="youremail">Email</label>
+                           <input type="email" id="youremail" name="youremail" required>
+                       </div>
+               
+                       <div>
+                           <label for="message">Message</label>
+                           <textarea name="message" id="yourmessage"></textarea>
+                       </div>
+
+                     <button type="Submit">Send<i class="im im-care-right"></i></button>
+                     </form>
                 </div>
 
             <div>
@@ -198,6 +227,26 @@
                 <h3> Hours of operation</h3>
                 <div class="hours container">
                      <div class="hours of operation table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                            </thead>
+    
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>9 AM - 6 PM</td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Saturday - Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
                 </div>
             </div>
         </section>
