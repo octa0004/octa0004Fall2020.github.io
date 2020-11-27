@@ -26,10 +26,10 @@
                 <nav class="navbar">
                     <ul class="navlink">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about us">About Us</a></li>
-                        <li><a href="Services">Services</a></li>
-                        <li><a href="Team">Team</a></li>
-                        <li><a href="Contact">Contact</a></li>
+                        <li><a href="aboutus">About Us</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="team">Team</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                     <div class="search-container">
                         <form action="/action_page.php">
@@ -62,7 +62,7 @@
     <!-- main content area -->    
     <!-- Light Green Part at the top-->
         <!-- Purple Partition About Us-->
-        <section class="aboutus">
+        <section id="aboutus">
             <div class="container">
                 <div class="image">
                     <img src="images/about-us.jpg" alt="about image" class="about"> 
@@ -81,7 +81,7 @@
         </section>
 
         <!-- Dark Green Partition Our Service-->
-        <section class="service">
+        <section id="service">
             <h2> Our Services</h2>
             <div class="ourservices container">
                 <div class="digital transformation">
@@ -137,8 +137,8 @@
                         soluta optio hic consequatur at.
                     </p>
                     <button type="Submit">Print Plans<i class="im im-care-right"></i></button>
-
-                </div>
+                </div>    
+            </div>
         </section>
 
         <!-- Blue Partition Our Vision-->
@@ -155,7 +155,7 @@
         </section>
 
         <!-- Peach Partition Our Team-->
-        <section class="team">
+        <section id="team">
             <h2>Our Team</h2>
             <div class="ourteam container">
                 <div class="johnimage">
@@ -185,11 +185,11 @@
                         soluta optio hic consequatur at.
                     </p>
                 </div>
-
+            </div>
         </section>
 
         <!-- Light Purple Partition Contact Us-->
-        <section class="contactus">
+        <section id="contactus">
             <h2> Contact Us</h2>
             <div class="contactus container">
                 <div class="Send us message table">
@@ -199,7 +199,7 @@
                         <div> 
                            <label for="fullname">Full Name</label>
                            <input type="text" id="fullname" name="fullname">
-                       </div>
+                        </div>
                
                        <div>
                            <label for="youremail">Email</label>
@@ -208,12 +208,13 @@
                
                        <div>
                            <label for="message">Message</label>
-                           <textarea name="message" id="yourmessage"></textarea>
+                           <textarea name="message" id="message"></textarea>
                        </div>
 
                      <button type="Submit">Send<i class="im im-care-right"></i></button>
                      </form>
                 </div>
+            </div>
 
             <div>
                 <section class="location">
@@ -260,8 +261,9 @@
     <footer class="site-footer">
         <div class="container">
             <p> &copy; Copyright Three Star Media, 2020</p>
-            <p>All images are taken from <a href="https://unsplash.com/" target="_blank"> Unsplash</p>
+            <p>All images are taken from <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
         </div>
     </footer>
+
 </body>
 </html>
