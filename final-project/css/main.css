@@ -90,24 +90,43 @@ p {
 }
 /* header */
 
+
 /* Navigation */
-.navlink li{
+
+.navlink {
   background-color: #222;
   text-align: center;
 }
 
-/* love hate */
+.logo{
+  display: block;
+  text-align: left;
+  background-color: #c78c06;
+  margin: 5px 0px;
+  padding: 5px;
+}
+
 .navlink a,
 .navlinkt a:link,
 .navlink a:visited{
   display: block;
   padding: 1em 0;
   text-decoration: none;
+  color: #c78c06;
 }
 .navlink a:hover,
 .navlink a:focus,
 .navlink a.current {
-  color: #c78c06;
+  color: #222;
+  background-color: #c78c06;
+}
+
+.search-container{
+  width: 100%;
+}
+
+.search-container form {
+  width: 100%;
 }
 
 
@@ -120,8 +139,32 @@ p {
   padding: 10px 10px;
  
 }
+/* welcome to tree star media */
 
+/* about us */
+
+/* our services */
+
+/* our vission */
+
+/* our team */
+
+/* contact us */
+
+/* location */
+
+/* footer */
 .site-footer {
     background-color: #222;
     color: #c78c06;
 }
+
+
+/* ---------------------------------
+          Desktop Styles
+------------------------------------ */
+@media screen and (min-width: 600px){
+  html{
+      font-size: 16px;
+  }
+} 
