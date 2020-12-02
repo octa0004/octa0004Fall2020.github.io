@@ -88,9 +88,8 @@ h5 {
 p {
   margin: 1em 0;
 }
+
 /* header */
-
-
 /* Navigation */
 
 .navlink {
@@ -140,10 +139,30 @@ p {
  
 }
 /* welcome to tree star media */
+.headercontainer {
+  background-color: #222;
+  color: white;
+}
+
+.headercontainer button{
+  color: #222;
+  background-color: #c78c06;
+}
 
 /* about us */
 
+
+#aboutus {
+  padding: 10px;
+  background-color: #ffe6ac;
+}
+
 /* our services */
+
+.ourservices-container{
+  padding: 10px;
+  background-color: #ffe6ac;
+}
 
 /* our vission */
 
