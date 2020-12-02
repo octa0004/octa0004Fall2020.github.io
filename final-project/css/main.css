@@ -88,6 +88,28 @@ h5 {
 p {
   margin: 1em 0;
 }
+/* header */
+
+/* Navigation */
+.navlink li{
+  background-color: #222;
+  text-align: center;
+}
+
+/* love hate */
+.navlink a,
+.navlinkt a:link,
+.navlink a:visited{
+  display: block;
+  padding: 1em 0;
+  text-decoration: none;
+}
+.navlink a:hover,
+.navlink a:focus,
+.navlink a.current {
+  color: #c78c06;
+}
+
 
 .contactus container{
   border-width: 1px;
