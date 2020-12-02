@@ -52,6 +52,7 @@ table {
           Custom Styles
 ------------------------------------ */
 html {
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     box-sizing: border-box;
   }
@@ -86,4 +87,19 @@ h5 {
 }
 p {
   margin: 1em 0;
+}
+
+.contactus container{
+  border-width: 1px;
+  border-color: #484A47;
+  border-style: solid;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 10px;
+ 
+}
+
+.site-footer {
+    background-color: #222;
+    color: #c78c06;
 }
