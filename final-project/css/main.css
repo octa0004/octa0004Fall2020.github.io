@@ -416,9 +416,10 @@ td{
 
 /* footer */
 .site-footer {
+    margin: 0;
     background-color: #222;
     color: #c78c06;
-    paddinh: 20px 15px 20px 15px;
+    padding: 20px 15px 20px 15px;
 }
 
 
