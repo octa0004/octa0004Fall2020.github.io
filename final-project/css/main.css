@@ -201,9 +201,6 @@ p {
   margin-right: 20px;
 }
 
-
-
-
 /* about us */
 
 #aboutus {
@@ -211,7 +208,7 @@ p {
   background-color: #ffe6ac; 
 }
 
-.image{
+.about{
   display: block;
   position: relative;
   width: 100%;
@@ -219,11 +216,54 @@ p {
 }
 
 /* our services */
-
-.ourservices-container{
+#services {
+  background-color: white;
   padding: 10px;
-  background-color: #ffe6ac;
+  display: block;
+  position: relative;
+  width: 100%;
 }
+
+.ourservices{
+  background-color: #ffe6ac;
+  padding-bottom: 15px;
+}
+
+.ourserviceimage{
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.ourservices h3{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.ourservices p{
+  margin-left: 15px;
+}
+
+.servicebutton {
+  display: flex;
+  color: white;
+  background-color: #222;
+  padding: 30px;
+  margin-left: 15px;
+}
+
+.servicebutton h4{
+  vertical-align: middle;
+  font-weight: 100;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+
 
 /* our vission */
 
