@@ -55,20 +55,19 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
   }
 body {
     line-height: 1.5;
   }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-weight: bold;
-    /* top left-right bottom */
-    margin: 1em 0 0.5em;
-}
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 600;
+  }
 /* Modular Scale https://www.modularscale.com/?1&rem&1.5 */
 h1 {
   font-size: 5.063rem;
@@ -89,8 +88,24 @@ p {
   margin: 1em 0;
 }
 
+
+.button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 /* header */
 /* Navigation */
+
+.navigation-background{
+  background-color: #222;
+
+}
 
 .navlink {
   background-color: #222;
@@ -101,8 +116,10 @@ p {
   display: block;
   text-align: left;
   background-color: #c78c06;
-  margin: 5px 0px;
-  padding: 5px;
+  padding: 20px 0px 5px 0px;
+  border-top: 10px solid #222;
+  border-left: 10px solid #222;
+  border-right: 10px solid #222;
 }
 
 .navlink a,
@@ -118,15 +135,18 @@ p {
 .navlink a.current {
   color: #222;
   background-color: #c78c06;
+  border-left: 10px solid #222;
+  border-right: 10px solid #222;
 }
 
-.search-container{
-  width: 100%;
+
+.search-container form{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-bottom: 15px solid #222;
 }
 
-.search-container form {
-  width: 100%;
-}
 
 
 .contactus container{
@@ -139,9 +159,28 @@ p {
  
 }
 /* welcome to tree star media */
+
 .headercontainer {
-  background-color: #222;
+  background-image: url("../images/main-banner.jpg");
+  
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.headercontainer div{
+  
+  margin: auto;
+  overflow: auto;
+  background-color: rgba(34, 34, 34, 0.75);
+  height: 50%;
+  top:50%;
   color: white;
+  
 }
 
 .headercontainer button{
@@ -150,7 +189,6 @@ p {
 }
 
 /* about us */
-
 
 #aboutus {
   padding: 10px;
@@ -169,7 +207,15 @@ p {
 /* our team */
 
 /* contact us */
-
+.contactbutton {
+  background-color: #222;
+  color: #c78c06;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ }
 /* location */
 
 /* footer */
