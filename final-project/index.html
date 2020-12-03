@@ -213,71 +213,73 @@
 
         <!-- Contact Us-->
         <section id="contact">
-            <h2> Contact Us</h2>
             <div class="contactus-container">
-                <div class="send us message table">
+                <div class="contactform">
+                    <h2> Contact Us</h2>
                     <h3>Send us a message</h3>
                     <!--Adding a form-->    
                     <form action="contact.html" method="post">
-                        <div> 
+                        <div class="lineform"> 
                            <label for="fullname">Full Name</label>
                            <input type="text" id="fullname" name="fullname">
                         </div>
                
-                       <div>
+                        <div class="lineform"> 
                            <label for="youremail">Email</label>
                            <input type="email" id="youremail" name="youremail" required>
                        </div>
                
-                       <div>
+                       <div class="textareaform"> 
                            <label for="message">Message</label>
                            <textarea name="message" id="message"></textarea>
                        </div>
 
-                     <button class="contactbutton" type="Submit">Send</button>
+                        <button class="contactbutton" type="Submit">
+                             <h4>Send </h4>
+                        </button>
                      </form>
+                </div>
+            </div>
+ 
+            
+            <div class="hours-container">
+                <!--Adding a table--> 
+                <h3> Hours of operation</h3>
+                <div class="hourstable">
+                     <table>
+                        <thead>
+                            <tr>
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                 <td>Monday - Friday</td>
+                                 <td>9 AM - 6 PM</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                                </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
             <div>
-                <section class="location">
+                <section class="location-container">
                     <div class="container">
-                    <h3>Location</h3>
-                    <p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.960374682444!2d-75.7578363345392!3d45.349612149103436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0722395fc63d%3A0x35c46b5ff47a522!2sAlgonquin%20College%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%203G7!5e0!3m2!1sen!2sca!4v1606312980613!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </p>
+                        <h3>Location</h3>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.960374682444!2d-75.7578363345392!3d45.349612149103436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0722395fc63d%3A0x35c46b5ff47a522!2sAlgonquin%20College%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%203G7!5e0!3m2!1sen!2sca!4v1606312980613!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
                     </div>
                 </section>
-            </div> 
-            
-            <div>
-                <h3> Hours of operation</h3>
-                <!--Adding a table--> 
-                <div class="hours-container">
-                    <div class="hours of operation table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Days</th>
-                                    <th>Hours</th>
-                                </tr>
-                            </thead>
-    
-                            <tbody>
-                                <tr>
-                                    <td>Monday - Friday</td>
-                                    <td>9 AM - 6 PM</td>
-                                </tr>
-    
-                                <tr>
-                                    <td>Saturday - Sunday</td>
-                                    <td>Closed</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
             </div>
+
         </section>
    </main>
 

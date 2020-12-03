@@ -349,24 +349,76 @@ p {
 }
 
 
-
-
 /* contact us */
+.contactform {
+  padding: 15px;
+}
+
+.lineform input{
+  margin: auto;
+  width: 99%;
+}
+
+.textareaform textarea{
+  width: 99%;
+  height: 15vh;
+  margin: auto;
+  margin-bottom: 20px;
+}
 .contactbutton {
   background-color: #222;
   color: #c78c06;
   border: none;
-  padding: 15px 32px;
+  padding: 4px
+}
+
+.contactbutton h4 {
+  font-weight: 100;
+}
+
+/* Hours of operation */
+
+.hours-container{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+.hourstable table,
+thead,
+th,
+td{
+  border: 1px solid black;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.hourstable table{
+  width: 100%;
+}
+
+.hourstable table thead{
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
- }
+  background-color: #ffe6ac;
+}
+
 /* location */
+.location-container h3 {
+  padding-left: 15px;
+}
+
+.map iframe{
+  box-sizing: border-box;
+  border: none;
+  padding: 15px;
+  height: 75vh;
+}
 
 /* footer */
 .site-footer {
     background-color: #222;
     color: #c78c06;
+    paddinh: 20px 15px 20px 15px;
 }
 
 
