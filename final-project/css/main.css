@@ -261,11 +261,29 @@ p {
 }
 
 
-
-
-
-
 /* our vission */
+
+.vision{
+  background-image: url("../images/vision.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: white;
+  
+}
+
+.vision h3{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.vision p{
+  margin-left: 15px;
+}
+
 
 /* our team */
 
