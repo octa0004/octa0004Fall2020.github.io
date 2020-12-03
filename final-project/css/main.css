@@ -142,12 +142,19 @@ p {
 
 .search-container form{
   display: flex;
-  flex-flow: row wrap;
   align-items: center;
   border-bottom: 15px solid #222;
 }
 
+.search-container form input{ 
+  width: 90%;
+  height: 30px;
+  margin-left: 20px;
+}
 
+.search-container form button{
+  margin-right: auto;
+}
 
 .contactus container{
   border-width: 1px;
