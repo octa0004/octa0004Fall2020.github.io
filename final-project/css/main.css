@@ -218,15 +218,22 @@ p {
 /* our services */
 #services {
   background-color: white;
-  padding: 10px;
   display: block;
   position: relative;
   width: 100%;
+  
+}
+
+.ourservices-container h2{
+  padding-left: 10px;
 }
 
 .ourservices{
   background-color: #ffe6ac;
   padding-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 .ourserviceimage{
@@ -284,8 +291,50 @@ p {
   margin-left: 15px;
 }
 
-
 /* our team */
+
+#team {
+  background-color: white;
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+  
+}
+
+.ourteam-container h2{
+  padding-left: 10px;
+}
+
+.teamname{
+  background-color: #ffe6ac;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.imageteam {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+  
+}
+
+.teamname h3{
+  font-weight: 600;
+}
+
+.teamname h5{
+  font-weight: 600;
+  border-bottom: 2px solid #c78c06;
+}
+
+
+
+
 
 /* contact us */
 .contactbutton {
