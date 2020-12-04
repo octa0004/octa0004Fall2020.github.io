@@ -126,6 +126,11 @@ margin: 1em 0;
   margin-right: 20px;
 }
 
+#aboutus {
+  padding: 10px;
+  background-color: #ffe6ac; 
+}
+
 /* ---------------------------------
           Mobile Styles
 ------------------------------------ */
@@ -490,7 +495,7 @@ margin: 1em 0;
 
   /* site header */
   .site-header{
-    height: 80vh;
+    height: 100vh;
   }
 
   .headercontainer{
@@ -514,10 +519,19 @@ margin: 1em 0;
   }
 
   /*about us*/
-  .about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1200px;
+  .image {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .about{
+    width: 49%;
+    padding: 0px;
+  }
+
+  .image div{
+    width: 49%;
+    padding: 30px;
   }
 
   /* our service */
@@ -590,6 +604,6 @@ margin: 1em 0;
 
   .contact .hourstable{
     grid-column: 1 / span 2;
-  }
+  } 
 
 }
