@@ -451,6 +451,7 @@ margin: 1em 0;
   .map iframe{
     box-sizing: border-box;
     border: none;
+    width: 100%;
     padding: 15px;
     height: 75vh;
   }
@@ -767,14 +768,22 @@ margin: 1em 0;
   margin: auto;
 }
 
-.contactus-container{
+.maincontact-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 80px 400px 400px;
+  grid-template-rows: 80px 500px 250px;
 }
 
+.maincontact-container h2{
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 1;
+  margin-left: 20px;
+}
 
-
+.contactus-container{
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
 
 .contactform {
   padding: 15px;
@@ -805,7 +814,72 @@ margin: 1em 0;
   font-weight: 100;
 }
 
+/* Location */
+.location-container{
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  width: 100%;
+  max-height: 450px;
+}
+
+.map{
+  width: 100%;
+  height: 100%;
+}
+
+.map iframe{
+  box-sizing: border-box;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  
+}
+
+/* Hours of operation */
+.hours-container{
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 2;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hourstable table,
+thead,
+th,
+td{
+  border: 1px solid black;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.hourstable table{
+  width: 100%;
+}
+
+.hourstable table thead{
+  text-align: center;
+  background-color: #ffe6ac;
+}
 
 
+
+/* footer */
+
+.site-footer {
+  margin: auto;
+  background-color: #222;
+  color: #c78c06;
+  width: 100%;
+}
+
+.site-footer div{
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  max-width: 1200px;
+}
 
 }
