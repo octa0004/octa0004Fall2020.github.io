@@ -761,9 +761,25 @@ margin: 1em 0;
 }
 
 /* contact us */
+#contact{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.contactus-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 80px 400px 400px;
+}
+
+
+
+
 .contactform {
   padding: 15px;
   max-width: 1200px;
+  width: 90%;
   margin: auto;
 }
 
